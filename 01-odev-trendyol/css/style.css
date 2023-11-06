@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500&display=swap');
+@import url(/css/colors.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source sans 3';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner {
+    width: 100vw;
+    height: 65px;
+    background-image: linear-gradient(to right, rgb(228, 76, 42) 50%, rgb(221, 63, 51) 50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#top-banner-image {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav {
+
+    justify-content: flex-end;
+}
+
+.toplinks {
+    display: flex;
+    height: 15px;
+    column-gap: 25px;
+    justify-content: flex-end;
+}
+
+.toplinks a {
+    margin-right: 20px;
+    color: var(--text-third);
+    font-size: 12px;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    /* float: left; */
+
+}
+
+/* .main-navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.logo {
+
+    width: 210px;
+    justify-content: start;
+}
+
+.search-bar {
+    width: 630px;
+    border: 1px solid black;
+}
+
+.search-bar>input {
+    width: 600px;
+}
+
+.menu-items {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
