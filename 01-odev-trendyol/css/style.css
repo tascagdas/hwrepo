@@ -6,6 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source sans 3';
+    color: var(--text-secondary);
+}
+
+.container {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 1200px;
+    margin: 0 auto;
 }
 
 a {
@@ -15,6 +23,7 @@ a {
 header {
     display: flex;
     justify-content: center;
+
 }
 
 .top-banner {
@@ -23,6 +32,7 @@ header {
     background-image: linear-gradient(to right, rgb(228, 76, 42) 50%, rgb(221, 63, 51) 50%);
     background-size: contain;
     background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #top-banner-image {
@@ -33,25 +43,48 @@ header {
 
 .main-nav {
 
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+.main-toplinks {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically (if needed) */
+    width: 100%;
+    padding: 5px 0px;
 }
 
 .toplinks {
     display: flex;
+    width: 1200px;
     height: 15px;
-    column-gap: 25px;
+    column-gap: 20px;
     justify-content: flex-end;
+
 }
 
 .toplinks a {
-    margin-right: 20px;
+    margin-right: 15px;
     color: var(--text-third);
     font-size: 12px;
 }
 
+.sticky-navbar {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
 .main-navbar {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    width: 1200px;
+    margin: 0 auto;
+    /* height: 100%; */
     /* float: left; */
 
 }
@@ -63,22 +96,98 @@ header {
 } */
 
 .logo {
-
+    margin-right: 20px;
     width: 210px;
     justify-content: start;
 }
 
 .search-bar {
+    display: flex;
     width: 630px;
     border: 1px solid black;
+    justify-content: center;
 }
 
 .search-bar>input {
     width: 600px;
+    border: none;
+
 }
 
 .menu-items {
+    width: auto;
     align-items: center;
     justify-content: space-evenly;
     display: flex;
+}
+
+.nav-link a:hover {
+    color: var(--text-warning);
+}
+
+.nav-link i:hover {
+    color: var(--text-warning);
+}
+
+.nav-link {
+    margin-left: 30px;
+}
+
+.sub-nav {
+    display: flex;
+    height: 35px;
+    padding-bottom: px;
+    column-gap: 25px;
+    justify-content: center;
+    border-bottom: 1px var(--text-third) solid;
+}
+
+
+
+.sub-nav a:hover {
+    color: var(--text-warning);
+    border-bottom: 2px var(--text-warning) solid;
+}
+
+.yeni-banner {
+    display: inline;
+    color: white;
+    font-size: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+.container {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.circlelink-bar {
+    height: 140px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.circlelink-bar>a {
+    /* height: 140px; */
+    /* ==================== */
+    width: 320px;
+    margin: 0 20px;
+}
+
+.circleimage {
+    width: 68px;
+    height: 68px;
+}
+
+.circlelink {
+    width: 115px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

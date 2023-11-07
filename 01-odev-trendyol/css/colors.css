@@ -12,11 +12,12 @@
     --text-dark: #4298b5;
     --text-light: #8db9ca;
     --text-primary: #00205b;
-    --text-secondary: #da1884;
+    --text-secondary: rgb(51, 51, 51)
+    ;
     --text-third: #999;
     --text-success: #84bd00;
     --text-danger: #a51890;
-    --text-warning: #efdf00;
+    --text-warning: rgb(227, 128, 55);
     --text-gray: #f3f4f7;
     --text-white: whitesmoke;
 }
