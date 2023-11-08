@@ -8,12 +8,12 @@
     --bg-danger: #e4002b;
     --bg-warning: #fe5000;
     --bg-gray: #52565e;
+    --bg-dark-link: rgb(27, 27, 27);
 
     --text-dark: #4298b5;
     --text-light: #8db9ca;
     --text-primary: #00205b;
-    --text-secondary: rgb(51, 51, 51)
-    ;
+    --text-secondary: rgb(51, 51, 51);
     --text-third: #999;
     --text-success: #84bd00;
     --text-danger: #a51890;

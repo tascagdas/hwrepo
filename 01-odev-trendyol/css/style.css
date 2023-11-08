@@ -113,6 +113,7 @@ header {
     width: 600px;
     border: none;
     flex: 1;
+    height: 100%;
 
 }
 
@@ -172,6 +173,7 @@ header {
     flex-direction: row;
     overflow-x: auto;
     white-space: nowrap;
+    margin-top: 30px;
 }
 
 .circlelink-bar>a {
@@ -193,4 +195,27 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.banner-listing-items{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.banner-listing-items img{
+    width: 387px;
+    height: auto;
+}
+.banner-listing-items a {
+
+}
+.kampanyalar{
+    margin-top: 40px;
+}
+.kampanya{
+    width: 383px;
+}
+.kampanya img{
+    width: 100%;
+        height: 188px;
 }
