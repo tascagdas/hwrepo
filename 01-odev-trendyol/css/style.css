@@ -197,6 +197,14 @@ header {
     text-align: center;
 }
 
+.circlelink p {
+    display: flex;
+    width: 68px;
+    text-align: center;
+    t align-items: center;
+    justify-content: center;
+}
+
 .banner-listing-items {
     display: flex;
     justify-content: center;
