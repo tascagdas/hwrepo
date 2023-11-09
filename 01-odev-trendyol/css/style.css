@@ -44,6 +44,7 @@ header {
 .main-nav {
 
     justify-content: center;
+    z-index: 1000;
 }
 
 .main-toplinks {
@@ -82,7 +83,7 @@ header {
 }
 
 nav {
-    position: sticky;
+       position: sticky;
     top: 0;
     background-color: white;
 }
@@ -205,12 +206,13 @@ nav {
     text-align: center;
 }
 
-.circlelink p {
+.circlelink-p {
     display: flex;
     width: 68px;
-    text-align: center;
     align-items: center;
     justify-content: center;
+    /* padding-left: 20px; */
+    /* color: red; */
 }
 
 .banner-listing-items {
@@ -312,11 +314,13 @@ footer {
     justify-content: center;
     column-gap: 200px;
 }
-.guvenlialisveris{
+
+.guvenlialisveris {
     display: flex;
     align-items: top;
 }
-.odemeimage img{
+
+.odemeimage img {
     width: auto;
     height: 35px;
     margin-right: 15px;
