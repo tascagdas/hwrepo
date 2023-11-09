@@ -77,6 +77,14 @@ header {
     align-items: center;
     width: 100%;
     margin: 10px;
+
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .main-navbar {
@@ -201,7 +209,7 @@ header {
     display: flex;
     width: 68px;
     text-align: center;
-    t align-items: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -252,4 +260,64 @@ header {
 
     background-color: var(--text-warning);
 
+}
+
+
+
+
+footer {
+    width: 100vw;
+    height: 455px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.footercontainer h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footercontainer h3 {
+    width: 240px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.footerlinks {
+    width: auto;
+}
+
+.footerlinks a {
+    display: block;
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.footerlinks a:hover {
+    text-decoration: underline;
+}
+
+.footercontainer {
+    display: flex;
+    width: 1200px;
+    align-items: top;
+    margin-top: 50px;
+    justify-content: center;
+    column-gap: 200px;
+}
+.guvenlialisveris{
+    display: flex;
+    align-items: top;
+}
+.odemeimage img{
+    width: auto;
+    height: 35px;
+    margin-right: 15px;
 }
