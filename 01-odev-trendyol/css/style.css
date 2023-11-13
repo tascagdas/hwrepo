@@ -83,7 +83,7 @@ header {
 }
 
 nav {
-       position: sticky;
+    position: sticky;
     top: 0;
     background-color: white;
 }
@@ -198,6 +198,8 @@ nav {
     height: 68px;
 }
 
+
+
 .circlelink {
     width: 115px;
     height: 120px;
@@ -241,12 +243,22 @@ nav {
 
 }
 
+.kampanya:hover {
+    /* transform: scale(1.1); */
+}
+
+.kampanya img:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
 .kampanya img {
     width: 100%;
     height: 188px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     display: block;
+    transform: 300ms;
 }
 
 .kampanya p {
@@ -264,8 +276,77 @@ nav {
 
 }
 
+.urunler-kaydirma {
+    height: 480px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
 
+    margin-top: 30px;
+    background-image: url(/images/Product_Background_Product_Background_ILk_Gun_202311061125.png.jpeg);
+    background-repeat: no-repeat;
+}
 
+.urunler-kaydirma>a {
+
+    width: 320px;
+    /* ============== */
+    margin: 0 20px;
+    height: 400px;
+}
+
+.urun {
+    background-color: white;
+    width: 220px;
+    height: 440px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.urun p {
+    height: 30px;
+    /* text-wrap: wrap; */
+}
+
+.urun span {
+    text-wrap: wrap;
+}
+
+.urun-isim {
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    white-space: nowrap;
+}
+
+.urunimage {
+    width: 220px;
+    height: auto;
+}
+
+.kayar-urun-text p {
+    margin-top: 10px;
+}
+
+.otuzgun {
+    color: crimson;
+}
+
+.otuzgun i {
+    color: crimson;
+    margin-right: 5px;
+}
+
+.urun-fiyat span {
+    color: gray;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.urun-fiyat {
+    color: crimson;
+}
 
 footer {
     width: 100vw;
@@ -306,6 +387,10 @@ footer {
     text-decoration: underline;
 }
 
+footer {
+    margin-top: 50px;
+}
+
 .footercontainer {
     display: flex;
     width: 1200px;
@@ -324,4 +409,120 @@ footer {
     width: auto;
     height: 35px;
     margin-right: 15px;
+}
+
+.breadcrump i {
+    color: var(--text-warning);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.breadcrump {
+    padding: 10px;
+}
+
+.urungorseller {
+    width: 402px;
+    height: 602px;
+}
+
+.urun-gorseller img {
+    width: 402px;
+    height: auto;
+}
+
+.mini-images {
+    width: 402px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.mini-image img {
+    width: 37px;
+    height: 56px;
+    border-radius: 5px;
+}
+
+#mini-image-1 {
+    border: 2px solid var(--text-warning);
+}
+
+.big-image img {
+    border-radius: 15px;
+}
+
+.sub-container {
+    display: flex;
+}
+
+.birincisatir {
+    background-color: rgb(252, 244, 236);
+
+}
+
+.birincisatir i {
+    color: var(--text-warning);
+}
+
+.renk-secenekleri {
+    display: flex;
+    column-gap: 12px;
+}
+
+.renk-secenekleri img {
+    width: 45px;
+    height: 68px;
+    border-radius: 6px;
+}
+
+.beden-listesi {
+    display: flex;
+    column-gap: 15px;
+}
+
+.beden-listesi p {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+    width: 40px;
+}
+
+.beden-yorum p {
+    display: inline;
+}
+
+.fav-ekle-btn {
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+#sepete-ekle-btn {
+    border: 1px solid var(--text-warning);
+    width: 460px;
+}
+
+.satici-bilgiler {
+    width: 228px;
+    margin: 0px;
+}
+
+.urun-bilgiler {
+    width: 487px;
+}
+
+.alt-paragraf h3,
+h2 {
+    margin: 10px;
+}
+
+.alt-paragraf p {
+    font-size: 13px;
+}
+
+.sosyalmedya {
+    display: flex;
+    column-gap: 10px;
+    font-size: 40px;
 }
